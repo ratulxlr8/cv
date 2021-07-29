@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+   <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <!-- Main Starts here -->
+        <div class="main">
+
+            <div class="glowing">
+                <span  style="--i:1;"></span>
+                <span  style="--i:2;"></span>
+                <span  style="--i:3;"></span>
+            </div>
+         
+            <!-- Home section -->
+            <section class="home-section text-align-center " id="homeID">
+               <div class="container">
+                <div class="row text-align-center">
+                    <div class="home-text">
+                        <p>Hellow I'm</p>
+                        <h1>Mahedi Hassan Ratul</h1>
+                        <h2>frontend web developer</h2>
+                        <a href="#" class="btn" onclick="displayAbout()">Check my CV</a>
+                        <a href="#" class="btn" onclick="displayPortfolio()">portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="./images/profile-pic.png" alt="">
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </section>
+            <!-- Home section Ends -->
+
+            <!-- About section Starts -->
+
+                <section class="about-section sec-padding" id="aboutMe">
+                    
+                    <div class="container">
+                        <div class="row">
+                            <a href="#" onclick="displayHome()" class="btn">Back to Home</a>
+                            <div class="section-title">
+                                <h2>About me</h2>
+                            </div>                 
+                        </div>
+                        <div class="row">
+                            <div class="about-img">
+                                <div class="img-box">
+                                    <img src="./images/profile-pic.png" alt="">
+                                </div>
+                            </div>
+                            <div class="about-text">
+                                <p>Lorem ipsum dolor 
+                                    sit amet consectetur,
+                                     adipisicing elit. 
+                                     Dignissimos itaque ipsa
+                                      ullam possimus voluptatibus 
+                                quis.</p>
+                                <h3>Skills</h3>
+                                <div class="skills">
+                                    <div class="skill-item">Hml</div>
+                                    <div class="skill-item">CSS</div>
+                                    <div class="skill-item">JavaScript</div>
+                                    <div class="skill-item">Bootstrap</div>
+                                    <div class="skill-item">React</div>
+                                    <div class="skill-item">Node.js</div>
+                                    <div class="skill-item">MongoDB</div>
+                                    <div class="skill-item">WordPress</div>
+                                    <div class="skill-item">Firebase</div>
+                                </div>
+
+                                <div class="about-tabs">
+                                    <button type="button" class="tab-item active" onclick="chagngeEdu() " >education</button>
+                                    <button type="button" class="tab-item"  onclick="chagngeExpe()" >experience</button>
+                                </div>
+
+                                <!-- Education Start -->
+                                <div class="tab-content active" id="education">
+                                    <div class="timeline">
+                                        <div class="timeline-item">
+                                            <span class="date">2017 - Present</span>
+                                            <h4>BSc in CSE - <span>East West University</span></h4>
+                                            <p>Currently I'm studying CSE at EWU. </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline">
+                                        <div class="timeline-item">
+                                            <span class="date">2016</span>
+                                            <h4>HSC - <span>Rajarbag Police Lines School & College</span></h4>
+                                            <p>I have completed my HSC from RPLSC. </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline">
+                                       
+                                        <div class="timeline-item">
+                                            <span class="date">2014</span>
+                                            <h4>SSC - <span>Community Center Adarsha High School</span></h4>
+                                            <p>I have completed my HSC from CCA Hing School.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Education End -->
+
+
+                                <!-- experience starts -->
+                    
+                                   <div class="tab-content " id="experience">
+                                       <div class="timeline">
+                                         
+
+                                          
+
+                                           <div class="timeline-item">
+                                            <span class="date">2017-2018</span>
+                                            <h4>WordPress Devloper</h4>
+                                            <p>I have worked for a year as a WordPress developer on Fiverr</p>
+                                           </div>
+
+                                       
+                                       </div>
+                                   </div> 
+                    
+                                <!-- experience ends -->
+
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            <!-- About section Ends -->
+
+            <!-- portfolio   section starts-->
+            <section class="home-section text-align-center " id="portfolio">
+               
+                <div class="container">
+                    <a href="#" onclick="displayHome()" class="btn">Back to Home</a>
+                 <div class="row text-align-center"></div>
+                    <center><h1>Under Development</h1></center>
+                
+                </div>
+             </section>
+        </div>
+    <!-- Main ends here -->
+
+
+    <!-- Circle Starts-->
+   
+
+
+    <script src="./app.js" ></script>
+</body>
+
+</html>
